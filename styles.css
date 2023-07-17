@@ -1,0 +1,118 @@
+html {
+  background: linear-gradient(
+    174deg,
+    rgba(180, 180, 180, 1) 0%,
+    rgba(172, 166, 207, 1) 10%
+  );
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.headerRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.headerRow h4 {
+  font-size: 48px;
+  margin: 0;
+  color: #333;
+}
+
+.currentScore,
+.highScore {
+  font-weight: lighter;
+  letter-spacing: 1px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  padding: 1em;
+  border-radius: 15px;
+  color: white;
+  font-size: 15px;
+}
+
+#board {
+  width: 400px;
+  height: 400px;
+  border: 6px solid #bbada0;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  background-color: #cdc1b5;
+  margin-top: 2em;
+}
+
+.tile {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #bbada0;
+  font-size: 40px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.x2 {
+  background-color: #eee4da;
+  color: #727381;
+}
+
+.x4 {
+  background-color: #ece0ca;
+  color: #727381;
+}
+
+.x8 {
+  background-color: #f4b17a;
+  color: white;
+}
+
+.x16 {
+  background-color: #bcdb33;
+  color: white;
+}
+.x32 {
+  background-color: #2cd43a;
+  color: white;
+}
+.x64 {
+  background-color: #377ae0;
+  color: white;
+}
+.x128 {
+  background-color: #a925d1;
+  color: white;
+}
+.x256 {
+  background-color: rgb(216, 33, 27);
+  color: white;
+}
+.x512 {
+  background-color: #f4b17a;
+  color: white;
+}
+.x1024 {
+  background-color: #bcdb33;
+  color: white;
+}
+.x2048 {
+  background-color: #2cd43a;
+  color: white;
+}
+.x4096 {
+  background-color: #f4b17a;
+  color: white;
+}
