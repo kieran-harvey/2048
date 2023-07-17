@@ -1,5 +1,7 @@
-# 2048
+**2048 Javascript**
+Popular mobile game 2048 made using Javascript, HTML, CSS
 
-2048 Game Javascript
+**--Live Demo--**
+https://2048javascript-kharvey.netlify.app/
 
-Popular Mobile Game 2048 made using Javascript, HTML, CSS
+
